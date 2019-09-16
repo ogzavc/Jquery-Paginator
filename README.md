@@ -67,9 +67,9 @@ __Destroy__ paginator
 ```
 
 #### Total page changes
-for the change total number of page dynamically
-you can call the function 'paginatorPages'
-before you call this function, you should know there is 3 parameters;
+for changing the total number of the page dynamically
+you can call the function 'paginatorPages'.
+Before you call this function, you should know there are 3 parameters;
 
 __pageTotal__: new total page number(int)
 
@@ -80,5 +80,8 @@ __selectedPage__: if you want to specify your selected page with init this funct
 
 So your function will be like : 
 __paginator.paginatorPages(pageTotal, 'newCustClass', paginationClass);__
+
+Special thanks to [@sseymakaya](https://github.com/sseymakaya) for testing.
+
 
 ### End
