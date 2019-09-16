@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="paginator-style.css" />
+  <title>Jquery pagination library </title>
+</head>
+
+<body>
+
+  <div class="col-md-12  js-test">page 1</div>
+
+  <div class="col-md-12 paginator js-paginator">
+
+  </div>
+
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+  </script>
+
+<script src="paginator.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    paginator.initPaginator({
+      'previousPage': 'Next Page',
+      'nextPage': 'Previous Page',
+      'totalPage': 34,
+      'triggerFunc': test,
+      'paginationClass': 'paginatorCustomClass'
+    });
+  });
+
+  function test() {
+    var selectdPg = $('.js-paginator').data('pageSelected');
+    $('.js-test').text('page ' + selectdPg);
+  }
+
+</script>
+
+</html>
