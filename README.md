@@ -79,7 +79,7 @@ __selectedPage__: if you want to specify your selected page with init this funct
 
 
 So your function will be like : 
-__paginator.paginatorPages(pageTotal, 'newCustClass', paginationClass);__
+__paginator.paginatorPages(pageTotal, 'newCustClass', selectedPage);__
 
 Special thanks to [@sseymakaya](https://github.com/sseymakaya) for testing.
 
