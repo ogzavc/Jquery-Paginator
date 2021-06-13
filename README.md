@@ -7,7 +7,7 @@
 
 ### Links
 
-`<demo page>` : <https://okisht.github.io/Jquery-Paginator/paginator>
+`<demo page>` : <https://ogzavc.github.io/Jquery-Paginator/paginator>
 
 Before start: All the function in paginator.js you should call with referance page
 
@@ -81,7 +81,6 @@ __selectedPage__: if you want to specify your selected page with init this funct
 So your function will be like : 
 __paginator.paginatorPages(pageTotal, 'newCustClass', selectedPage);__
 
-Special thanks to [@sseymakaya](https://github.com/sseymakaya) for testing.
 
 
 ### End
